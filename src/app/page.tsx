@@ -82,7 +82,7 @@ const Home: React.FC = () => {
           {result && (
               <div className="mt-6">
                 <h3 className="text-lg font-medium text-gray-700">Result:</h3>
-                <p className="text-ellipsis text-gray-900 bg-gray-100 p-3 rounded-md border border-gray-300 mt-2">{result}</p>
+                <p className="text-ellipsis overflow-hidden text-gray-900 bg-gray-100 p-3 rounded-md border border-gray-300 mt-2">{result}</p>
               </div>
           )}
         </div>
